@@ -28,7 +28,7 @@ resume_screening_app/
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/Akshith1007/AI-powered-Resume-Screening-and-Ranking-System.git
+git clone https://github.com/Techteja6/Resume-Ranking-system
 
 
 2️⃣ (Optional) Create a Virtual Environment
@@ -104,4 +104,4 @@ AI Enthusiasts & Students – Learn NLP-based resume analysis.
 This AI-powered Resume Screening & Ranking System addresses the challenge of manual resume screening, which is time-consuming and inefficient. By leveraging TF-IDF and Cosine Similarity, the system automates resume ranking, ensuring fast, objective, and accurate candidate shortlisting. With PDF text extraction, real-time ranking, and easy deployment via Streamlit, this project provides an efficient, scalable, and user-friendly solution for recruiters, hiring managers, and job portals. 🚀
 
 Streamlit Cloud deploy site:
-ai-powered-resume-screening-and-ranking-system-6925.streamlit.app   
+https://resume-ranking-system-uqsn3dvxmcbmqhupr3hgsr.streamlit.app/
