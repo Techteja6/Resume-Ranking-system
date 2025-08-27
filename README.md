@@ -93,7 +93,6 @@ pip install -r requirements.txt
 🎯 End Users
 
 HR & Recruiters – Automates resume screening for faster hiring.
-
 Hiring Managers – Ranks resumes efficiently for job roles.
 
 Job Portals – Enhances resume-job matching accuracy.
