@@ -2,7 +2,6 @@ import streamlit as st
 from PyPDF2 import PdfReader
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
 def extract_text_from_pdf(file):
     pdf = PdfReader(file)
     text = ""
@@ -36,4 +35,5 @@ if uploaded_files and job_description:
     st.subheader("Ranked Resumes")
     for i, (file, score) in enumerate(ranked_resumes, start=1):
         st.write(f"{i}. {file.name} - Score: {score:.2f}")
+
 
