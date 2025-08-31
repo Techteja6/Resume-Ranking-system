@@ -10,7 +10,6 @@ def extract_text_from_pdf(file):
         if page_text:
             text += page_text + "\\n"
     return text.strip() if text else "No readable text found."
-
 def rank_resumes(job_description, resumes):
     documents = [job_description] + resumes
     vectorizer = TfidfVectorizer().fit_transform(documents)
@@ -35,5 +34,6 @@ if uploaded_files and job_description:
     st.subheader("Ranked Resumes")
     for i, (file, score) in enumerate(ranked_resumes, start=1):
         st.write(f"{i}. {file.name} - Score: {score:.2f}")
+
 
 
