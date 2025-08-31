@@ -36,4 +36,3 @@ if uploaded_files and job_description:
         st.write(f"{i}. {file.name} - Score: {score:.2f}")
 
 
-
