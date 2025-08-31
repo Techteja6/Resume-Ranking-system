@@ -35,4 +35,3 @@ if uploaded_files and job_description:
     for i, (file, score) in enumerate(ranked_resumes, start=1):
         st.write(f"{i}. {file.name} - Score: {score:.2f}")
 
-
